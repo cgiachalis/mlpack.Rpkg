@@ -1,0 +1,22 @@
+Type: Package
+Package: mlpack.Rpkg
+Title: Demo Package using 'mlpack' header via 'Rcpp'
+Version: 1.0
+Date: 2024-01-28
+Author: Your Name
+Maintainer: Your Name <your@email.com>
+Description: Provides a demo R function 'knnDemo()' that sends its input to
+ a custom C++ routine which then invokes the mlpack's functionality.
+License: GPL (>= 2)
+Depends: 
+    R (>= 4.1.0)
+Imports: 
+    Rcpp (>= 1.0.12)
+LinkingTo: 
+    mlpack(>= 4.3.0),
+    Rcpp,
+    RcppArmadillo,
+    RcppEnsmallen
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE, old_usage = TRUE)
+RoxygenNote: 7.3.1
