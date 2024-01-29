@@ -1,6 +1,6 @@
 # R package with 'mlpack' library
 
-A small R demo package that calls a `C++` function with mlpack's functionality which integrates with `R` via `Rcpp` framework.
+A small R demo package that calls a `C++` function using `mlpack` library which then it is integrated into `R` via `Rcpp` framework.
 
 ## Installation
 
@@ -8,6 +8,7 @@ You can install the `mlpack.Rpkg` using:
 
 ``` r
 library(remotes)
+
 remotes::install_github("cgiachalis/mlpack.Rpkg")
 ```
 
