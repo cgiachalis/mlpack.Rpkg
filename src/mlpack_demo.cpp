@@ -2,7 +2,6 @@
 #include <mlpack/methods/neighbor_search.hpp>
 
 using namespace mlpack;
-using namespace Rcpp;
 
 // [[Rcpp::export(.knnDemo)]]
 Rcpp::List knnDemo(const arma::mat& Reference,
@@ -28,8 +27,8 @@ Rcpp::List knnDemo(const arma::mat& Reference,
   // Neighbors.brief_print("N:");
   // Distances.brief_print("D:");
 
-  return List::create( _["distances"] = wrap(Distances),
-                       _["neighbors"] = wrap(Neighbors));
+  return Rcpp::List::create(
+                Rcpp::Named("distances", Rcpp::wrap(Distances)),
+                Rcpp::Named("neighbors", Rcpp::wrap(Neighbors))
+                           );
 }
-
-

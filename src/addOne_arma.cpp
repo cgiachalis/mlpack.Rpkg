@@ -5,5 +5,3 @@ arma::vec addOne_arma(arma::vec& x) {
 
   return x+1;
 }
-
-

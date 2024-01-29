@@ -4,4 +4,3 @@
 Rcpp::NumericVector addOne_rcpp(Rcpp::NumericVector& x) {
   return x + 1;
 }
-
