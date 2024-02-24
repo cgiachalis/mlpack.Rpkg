@@ -2,7 +2,7 @@ Type: Package
 Package: mlpack.Rpkg
 Title: Demo Package using 'mlpack' header via 'Rcpp'
 Version: 1.0
-Date: 2024-01-28
+Date: 2024-02-24
 Author: Your Name
 Maintainer: Your Name <your@email.com>
 Description: Provides a demo R function 'knnDemo()' that sends its input to
