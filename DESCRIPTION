@@ -13,7 +13,7 @@ Depends:
 Imports: 
     Rcpp (>= 1.0.12)
 LinkingTo: 
-    mlpack(>= 4.3.0),
+    mlpack(>= 4.3.0.1),
     Rcpp,
     RcppArmadillo,
     RcppEnsmallen
